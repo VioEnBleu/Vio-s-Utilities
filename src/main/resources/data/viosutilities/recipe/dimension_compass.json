@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "N G",
+    " C "
+  ],
+  "key": {
+    "E": { "item": "minecraft:end_stone" },
+    "N": { "item": "minecraft:netherrack" },
+    "G": { "item": "minecraft:grass_block" },
+    "C": { "item": "minecraft:compass" }
+  },
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 101,
+      "minecraft:rarity": "epic",
+      "minecraft:custom_name": "{\"text\":\"Dimensional Rift\",\"color\":\"dark_purple\",\"bold\":true}",
+      "minecraft:lore": [
+        "{\"text\":\"A tool forged from the essence of four worlds.\",\"color\":\"gray\",\"italic\":true}",
+        "{\"text\":\"Right-click to tear through reality.\",\"color\":\"dark_purple\"}"
+      ]
+    }
+  }
+}
